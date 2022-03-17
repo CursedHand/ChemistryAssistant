@@ -1,0 +1,94 @@
+
+
+.Non-Metal, .Halogen {
+    background-color: rgba(255, 255, 0, 0.35) !important;
+}
+.Noble_Gas {
+    background-color: rgba(255, 166, 0, 0.75) !important;
+}
+.Metalloid {
+    background-color: rgba(189, 189, 3, 0.35) !important;
+}
+.Transition_Metal {
+    background-color: rgba(135, 206, 250, 0.75) !important;
+}
+.Post-Transition_Metal {
+    background-color: rgba(172, 255, 47, 0.75) !important;
+}
+.Alkali_Metal {
+    background-color: rgba(255, 0, 0, 0.5) !important;
+}
+.Alkaline_Earth_Metal {
+    background-color: rgba(128, 0, 128, 0.35) !important;
+}
+.Lanthanide {
+    background-color: aqua !important;
+}
+.Actinide {
+    background-color: aquamarine !important;
+}
+
+
+
+
+#periodicTable {
+    margin-left: 300px;
+    width: calc(100vw - 300px);
+    height: 100vh;
+}
+.periodicTableButton {
+    position: absolute;
+}
+.periodicTableButton:not(.tableElement) {
+    display: none;
+}
+.tableText {
+    margin: 3px;
+    padding: 0;
+}
+.elementName {
+    font-size: large;
+    font-weight: bold;
+}
+.hiddenData {
+    display: none;
+}
+
+
+
+
+#displayWindow {
+    position: absolute;
+    background-color: lightgray;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+}
+.windowInfo {
+    padding-top: 5px;
+    padding-left: 10px;
+    margin: 0px;
+}
+#windowInfo0 {
+    padding-top: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+#displayElement {
+    position: absolute;
+    text-align: center;
+    background-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    z-index: 9999;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,46 @@
+/* styles.css */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+
+
+.menu-div {
+    width: 300px;
+    height: 100vh;
+    background-color: rgba(35, 35, 40, 1);
+    float: left;
+    position: absolute;
+}
+
+.menu-div a{
+    background-color: rgba(35, 35, 40, 1);
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.menu-div a:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+
+
+
+
+
+
+
+
+
+/* Add styles here to customize the appearance of your app */
